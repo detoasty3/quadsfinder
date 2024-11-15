@@ -60,11 +60,11 @@ int main() {
     for (int i = 0; i < 64; i++) {
         a[i] = i;
     }
-    cout << "DONE" << endl;
-    // iterate(a, 0, 4, 4, count);
-    // for (int i = 4; i < 64; i++) {
-    //     ll count = 0;
-    //     iterate(a, 0, 64, i, count);
-    //     cout << count << endl;
-    // }
+    ll count = 0;
+    // Line 68 may be adjusted to anything of the form "iterate(a, 0, 4^d, k, count);"
+    // d is the number of dimensions (i.e., the number of card properties)
+    // k is the size of the subset of cards chosen from a deck of 4^d cards
+    // Line 68 will find q(7, 3)
+    iterate(a, 0, 64, 7, count);
+    cout << count << endl;
 }

@@ -61,10 +61,10 @@ int main() {
         a[i] = i;
     }
     ll count = 0;
-    // Line 68 may be adjusted to anything of the form "iterate(a, 0, 4^d, k, count);"
+    // Line 68 may be adjusted to anything of the form "iterate(a, 0, 2^{2d}, k, count);"
     // d is the number of dimensions (i.e., the number of card properties)
-    // k is the size of the subset of cards chosen from a deck of 4^d cards
-    // Line 68 will find q(7, 3)
+    // k is the size of the subset of cards chosen from a deck of 2^{2d} cards
+    // Line 68 will find q(7, 6)
     iterate(a, 0, 64, 7, count);
     cout << count << endl;
 }

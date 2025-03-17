@@ -33,7 +33,7 @@ ll moserDeBrujin(ll n)
     return ans;
 }
 
-// Finds q(k, d)
+// Finds q(k, d); source: arXiv:2310.09695
 int main() {
     // d is the number of "half" (has two attributes) dimensions (i.e., the number of card properties)
         // each "full" property (has four attributes) adds two to this total

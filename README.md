@@ -1,6 +1,6 @@
-# QuadsFinder: Finds Maximum Quads Layout (2024 Polymath Jr REU)
+# QuadsFinder: Finds Maximum Quads Layout
 
-This is a computer program in C++ that finds q(k,d) through a brute-force algorithm and through a recursive sequence (that is still conjectured).
+This is a computer program in C++ that finds q(k,d) through a brute-force algorithm and through a recursive sequence (that is still conjectured). This project was created in part due to the **2024 Polymath Jr REU**, under the mentorship of Dr. Timothy Goldberg and Dr. Lauren Rose.
 
 To run (assuming g++ exists):
 
